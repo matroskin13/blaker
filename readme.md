@@ -14,5 +14,5 @@ function* mainHandler() {
     return json({ paramId: id, currentUrl: url, requestQuery: query });
 }
 
-start(mainHandler)(3000);
+start(mainHandler)(3000); // listen 3000
 ```
