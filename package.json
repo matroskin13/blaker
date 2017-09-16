@@ -1,0 +1,7 @@
+{
+  "name": "genomi",
+  "version": "0.0.1",
+  "dependencies": {
+    "path-to-regexp": "^2.0.0"
+  }
+}
