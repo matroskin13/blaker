@@ -1,18 +1,30 @@
-const { start, json, match } = require('../lib');
+const { start, json, match, getState } = require('../lib');
 
 function* handler1() {
     yield match('GET', '/one');
 
-    return json({ one: true });
+    const { user } = yield getState();
+
+    return json({ one: true, user });
 }
 
 function* handler2() {
     yield match('GET', '/two');
 
-    return json({ two: true });
+    const { user } = yield getState();
+
+    return json({ two: true, user });
+}
+
+function* getUser() {
+    const state = yield getState();
+
+    state.user = { id: 1, name: 'Bruce Wayne' };
 }
 
 function* mainHandler() {
+    yield getUser;
+
     yield handler1;
     yield handler2;
 }
