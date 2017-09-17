@@ -3,7 +3,7 @@
 A modern and usable web framework for Node.js.
 
 ```js
-const { start, getUrl, getQuery, match, json } = require('../lib');
+const { start, getUrl, getQuery, match, json } = require('blaker');
 
 function* mainHandler() {
     const { id } = yield match('GET', '/users/:id');

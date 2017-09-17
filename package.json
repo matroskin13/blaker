@@ -1,6 +1,19 @@
 {
-  "name": "genomi",
+  "name": "blaker",
   "version": "0.0.1",
+  "description": "A modern and usable web framework for Node.js.",
+  "keywords": [
+    "framework",
+    "http",
+    "rest"
+  ],
+  "main": "lib/index.js",
+  "author": "Valentin Dubrovsky <spbclan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matroskin13/blaker.git"
+  },
+
   "dependencies": {
     "path-to-regexp": "^2.0.0"
   }
