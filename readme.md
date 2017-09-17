@@ -6,7 +6,7 @@ A modern and usable web framework for Node.js.
 const { start, getUrl, getQuery, match, json } = require('blaker');
 
 function* mainHandler() {
-    const { id } = yield match('GET', '/users/:id');
+    const { id } = yield match('GET', '/users/:id'); // if URL is not equal /users/:id then abort
 
     const url = yield getUrl(); // get current url
     const query = yield getQuery(); // get all query
