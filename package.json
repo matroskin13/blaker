@@ -11,10 +11,15 @@
   "author": "Valentin Dubrovsky <spbclan@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matroskin13/blaker.git"
+    "url": "git+https://github.com/matroskin13/blaker.git"
   },
-
   "dependencies": {
     "path-to-regexp": "^2.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/matroskin13/blaker/issues"
+  },
+  "homepage": "https://github.com/matroskin13/blaker#readme",
+  "devDependencies": {},
+  "license": "MIT"
 }
