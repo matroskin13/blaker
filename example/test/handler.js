@@ -1,4 +1,4 @@
-const { getQuery, json, setStatusCode } = require('../../lib');
+const { getQuery, json, setStatusCode } = require('blaker');
 
 const mockUsers = [
     { id: 1, name: 'Superman' },

@@ -13,6 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/matroskin13/blaker.git"
   },
+  "scripts": {
+    "test": "jest test/"
+  },
   "dependencies": {
     "path-to-regexp": "^2.0.0"
   },
@@ -20,6 +23,8 @@
     "url": "https://github.com/matroskin13/blaker/issues"
   },
   "homepage": "https://github.com/matroskin13/blaker#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^21.1.0"
+  },
   "license": "MIT"
 }
