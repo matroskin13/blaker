@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "./node_modules/.bin/jest test.js"
+  },
+  "dependencies": {
+    "blaker": "latest",
+    "jest": "^21.1.0"
+  }
+}
