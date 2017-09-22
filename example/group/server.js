@@ -1,4 +1,4 @@
-const { start, json, match, getState } = require('../lib');
+const { start, json, match, getState } = require('blaker');
 
 function* handler1() {
     yield match('GET', '/one');
@@ -25,7 +25,7 @@ function* getUser() {
 function* mainHandler() {
     yield getUser;
 
-    yield handler1;
+    yield handler1();
     yield handler2;
 }
 

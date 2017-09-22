@@ -5,7 +5,7 @@ const {
     getUrl,
     getQuery,
     getBody
-} = require('../lib');
+} = require('blaker');
 
 let heroes = [
     { id: 1, superhero: 'Superman', rating: 10 },
