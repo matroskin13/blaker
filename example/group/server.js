@@ -25,7 +25,7 @@ function* getUser() {
 function* mainHandler() {
     yield getUser;
 
-    yield handler1();
+    yield handler1;
     yield handler2;
 }
 
